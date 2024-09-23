@@ -1,0 +1,17 @@
+/* styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+tr, td, th {
+    @apply p-2 text-left transition-shadow   ; /* Use Tailwind classes for padding and text alignment */ 
+}
+
+
+tr:hover {
+  @apply bg-slate-500; /* Change to your desired hover color */
+}
+
+tr:hover input {
+  @apply bg-slate-500; /* Change to your desired input hover color */
+}
